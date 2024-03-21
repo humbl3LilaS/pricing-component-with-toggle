@@ -1,11 +1,19 @@
-import Toggle from "./components/Toggle.tsx";
+import {ToggleStateProvider} from "./provider/ToggleStateProvider.tsx";
+
+import Header from "./components/Header.tsx";
+import Container from "./components/Container.tsx";
+
+
 
 function App() {
 
   return (
-    <>
-        <Toggle/>
-    </>
+
+    <Container>
+      <ToggleStateProvider>
+         <Header/>
+      </ToggleStateProvider>
+    </Container>
   )
 }
 
