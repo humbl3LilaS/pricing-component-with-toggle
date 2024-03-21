@@ -1,0 +1,16 @@
+
+import Plan from "./Plan.tsx";
+import {useContext} from "react";
+import {PlanContext} from "../provider/usePlanData.ts";
+
+export default function PlanContainer(){
+    const plans = useContext(PlanContext)
+
+ return (
+     <section>
+         <div className={"grid gap-y-6 md:grid-cols-2 lg:grid-cols-3"}>
+             {plans.map(data => <Plan data={data} key={data.title}/> )}
+         </div>
+     </section>
+ )
+}

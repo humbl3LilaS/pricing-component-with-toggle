@@ -1,6 +1,6 @@
 export default function Container(props: React.PropsWithChildren) {
     return (
-        <div className={"w-screen h-screen py-12 px-8"}>
+        <div className={"w-full h-full py-12 px-6 "}>
             {props.children}
         </div>
     )

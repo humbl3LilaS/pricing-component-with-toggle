@@ -17,10 +17,15 @@ export default {
       backgroundColor: {
         body: "hsl(234, 14%, 74%)"
       },
+      borderColor:{
+        hover: "hsl(232, 13%, 33%)",
+        btn: "#b6bdf6"
+      },
       textColor: {
         heading: "hsl(232, 13%, 33%)",
         switch: "hsl(233, 13%, 49%)",
         main: "hsl(232, 13%, 33%)",
+        btn: '#b6bdf6',
       },
       fontFamily: {
         main: ["Montserrat", 'sans-serif']
