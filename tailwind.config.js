@@ -9,6 +9,12 @@ export default {
       width: {
         "90" : "90%"
       },
+      gridTemplateRows: {
+        desktop: "20px 1fr 20px"
+      },
+      gridTemplateColumns:{
+        desktop: "350px 350px 350px"
+      },
       backgroundImage:{
         primary: "linear-gradient( hsl(236, 72%, 79%) ,hsl(237, 63%, 64%))",
         backdropTop: "url(./src/assets/bg-top.svg)",

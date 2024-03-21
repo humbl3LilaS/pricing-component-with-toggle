@@ -4,7 +4,7 @@ import {useToggleContext} from "../provider/ToggleStateProvider.tsx";
 
 export default function Toggle() {
 
-    const {enabled, setEnabled} = useToggleContext()
+    const {enabled, setEnabled} = useToggleContext();
 
     return (
         <Switch
